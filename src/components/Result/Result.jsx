@@ -1,0 +1,1 @@
+import "../Result/Result.css";

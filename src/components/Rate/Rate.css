@@ -1,0 +1,77 @@
+.card {
+  max-width: 32.7rem;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 1.5rem;
+  padding: 2.4rem;
+}
+
+.star-image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 4rem;
+  background-color: #262e38;
+  margin-bottom: 1.6rem;
+}
+
+.question {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.comment {
+  color: #969fad;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 2.4rem;
+}
+.rate-numbers {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.4rem;
+}
+
+.rate-numbers > button:hover {
+  background-color: Orange;
+  color: #fff;
+}
+
+.rate-numbers > button {
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 4.2rem;
+  border: none;
+  background-color: #262e38;
+  color: #7c8798;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.submit:active {
+  color: #fc7614;
+  background-color: #fff;
+}
+
+.submit {
+  width: 90%;
+  border-radius: 22.5px;
+  background: #fc7614;
+  border: none;
+  padding: 1.2rem;
+  margin-left: 50%;
+  transform: translate(-50%);
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 1.867px;
+}
