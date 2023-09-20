@@ -1,9 +1,8 @@
 import { useState } from "react";
 import "../Rate/Rate.css";
-const Rate = () => {
+const Rate = (props) => {
   let rateNumbers = [1, 2, 3, 4, 5];
-  const [number, setNumber] = useState();
-  console.log(number);
+
   return (
     <div className="card">
       <div className="star-image-div">
@@ -23,13 +22,13 @@ const Rate = () => {
           return (
             <button
               style={
-                number == item
+                props.number == item
                   ? { backgroundColor: "#7C8798", color: "white" }
                   : {}
               }
               key={item}
               onClick={() => {
-                setNumber(item);
+                props.setNumber(item);
               }}
             >
               {item}
@@ -37,7 +36,16 @@ const Rate = () => {
           );
         })}
       </div>
-      <button className="submit">SUBMIT</button>
+      <button
+        onClick={() => {
+          {
+            if (props.number) props.setSubmit(true);
+          }
+        }}
+        className="submit"
+      >
+        SUBMIT
+      </button>
     </div>
   );
 };

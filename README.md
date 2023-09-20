@@ -19,6 +19,10 @@ Github: https://github.com/papunafshaveli
 
 Facebook: https://www.facebook.com/papunafshaveli
 
+### Screenshot
+
+![](/images/screenshot.PNG)
+
 # Overview
 
 This interactive rating component is a great way to collect user feedback on your product or service. It is easy to use and provides a number of features to improve the user experience, such as:
