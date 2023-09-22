@@ -75,3 +75,42 @@
   font-weight: 700;
   letter-spacing: 1.867px;
 }
+
+@media screen and (min-width: 1440px) {
+  .card {
+    max-width: 41.2rem;
+    border-radius: 3rem;
+    padding: 3.2rem;
+  }
+
+  .star-image-div {
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 4.8rem;
+    margin-bottom: 3rem;
+  }
+
+  .question {
+    font-size: 2.8rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .comment {
+    font-size: 1.5rem;
+  }
+  .rate-numbers {
+    margin-bottom: 3.2rem;
+  }
+
+  .rate-numbers > button {
+    width: 5.1rem;
+    height: 5.1rem;
+    border-radius: 5.1rem;
+    font-size: 1.6rem;
+  }
+
+  .submit {
+    width: 94%;
+    font-size: 1.5rem;
+  }
+}
